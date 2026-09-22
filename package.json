@@ -1,0 +1,20 @@
+{
+  "name": "amor-de-4-patas",
+  "version": "1.0.0",
+  "description": "Site desenvolvido para uma ONG fictícia de proteção animal como parte da disciplina de Desenvolvimento Front End, do curso de Análise e Desenvolvimento de Sistemas (ADS), da Universidade Cruzeiro do Sul.",
+  "main": "index.js",
+ "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github-quebra-prod:luquinha-quebra-prod/amor-de-4-patas.git"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "devDependencies": {
+    "vite": "^8.3.0"
+  }
+}
