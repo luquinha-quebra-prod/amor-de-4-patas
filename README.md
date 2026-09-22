@@ -52,4 +52,4 @@ A organização das branches segue uma adaptação do GitFlow, utilizando master
 
 ## Autoria
 
-Projeto desenvolvido para fins acadêmicos.
+Projeto desenvolvido para fins acadêmicos. Desenvolvido por Lucas Txai M. Fonceca
