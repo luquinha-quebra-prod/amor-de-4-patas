@@ -1,0 +1,15 @@
+.cadastro input.erro,
+.cadastro select.erro {
+  border: 2px solid var(--color-error);
+}
+
+.mensagem-erro {
+  display: none;
+  color: var(--color-error);
+  font-size: var(--font-size-2);
+  margin-top: var(--space-1);
+}
+
+.mensagem-erro.visivel {
+  display: block;
+}

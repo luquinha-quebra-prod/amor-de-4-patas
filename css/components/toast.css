@@ -1,0 +1,40 @@
+.toast {
+  display: none;
+  position: fixed;
+  top: var(--space-5);
+  left: 50%;
+  transform: translate(-50%);
+
+  width: min(420px, calc(100vw - 32px));
+
+  padding: var(--space-4);
+
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgb(0 0 0 / 15%);
+
+  z-index: 200;
+}
+
+span {
+  background-color: transparent;
+  font-weight: 600;
+}
+
+.toast-success {
+  background-color: var(--color-success);
+  border-color: var(--color-success);
+}
+
+.toast-error {
+  background-color: var(--color-error);
+  border-color: var(--color-error);
+}
+
+.toast-warning {
+  background-color: var(--color-danger);
+  border-color: var(--color-danger);
+}
+
+.toast.show {
+  display: block;
+}
