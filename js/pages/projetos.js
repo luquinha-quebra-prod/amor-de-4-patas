@@ -26,7 +26,7 @@ export function initProjetos() {
 
         title: {
           display: true,
-          text: 'Distribuição das ações da ONG',
+          text: 'Ações da ONG',
         },
       },
     },
