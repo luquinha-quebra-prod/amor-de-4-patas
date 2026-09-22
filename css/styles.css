@@ -184,6 +184,29 @@ a figure img {
   outline-offset: 2px;
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-primary: #a8c7fa;
+    --color-primary-dark: #355c8a;
+    --color-primary-light: #26384d;
+
+    --color-secondary: #e6a39a;
+    --color-secondary-dark: #f2b8b0;
+
+    --color-background: #121212;
+    --color-surface: #1e1e1e;
+
+    --color-text: #f5f5f5;
+    --color-black: #ffffff;
+    --color-text-light: #d0d0d0;
+    --color-border: #5a5a5a;
+
+    --color-success: #86efac;
+    --color-error: #fca5a5;
+    --color-danger: #fbbf24;
+  }
+}
+
 /* 1 — Celular grande */
 @media (min-width: 480px) {
   .container {
